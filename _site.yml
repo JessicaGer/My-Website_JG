@@ -1,0 +1,14 @@
+name: "My Website_JG"
+title: "My Website_JG"
+description: |
+  My Website_JG
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Hausaufgabe 5"
+      href: hausaufgabe5.html
+output: distill::distill_article
