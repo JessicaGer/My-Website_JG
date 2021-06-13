@@ -1,10 +1,12 @@
 ---
-title: "Hausaufgabe 5"
-description: |
-  Ergebnisse der Bundestagswahl 2017
+title: "Abgabe 5"
+description: "Thema: Bundestagswahl 2017"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r, layout="l-body-outset", fig.width=6, fig.height=3}
+knitr::include_graphics("./hausaufgabe5.png")
+```

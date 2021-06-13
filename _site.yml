@@ -1,14 +1,26 @@
 name: "My Website_JG"
 title: "My Website_JG"
 description: |
-  My Website_JG
+  Meine Abgaben
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Hausaufgabe 5"
+    - text: "Abgabe 1"
+      href: hausaufgabe1.html
+    - text: "Abgabe 2"
+      menu:
+        - text: "Live-Uebung"
+          href: hausaufgabe2_1.html
+        - text: "Hausaufgabe 2"
+          href: hausaufgabe2_2.html
+    - text: "Abgabe 3"
+      href: hausaufgabe3.html
+    - text: "Abgabe 4"
+      href: hausaufgabe4.html
+    - text: "Abgabe 5"
       href: hausaufgabe5.html
+    - icon: fas fa-graduation-cap
+      href: https://moodle.rwth-aachen.de/course/view.php?id=15554
 output: distill::distill_article

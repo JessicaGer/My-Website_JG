@@ -1,7 +1,7 @@
 ---
-title: "My Website_JG"
+title: "Meine Abgaben"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Willkommen auf meiner Seite! Hier findet ihr meine Abgaben zum Seminar "Informationsvisualisierung und Sprache" (SS2021)
 site: distill::distill_website
 ---
 
